@@ -13,6 +13,7 @@ var the2am = $("2pm");
 var the3am = $("3pm");
 var the4am = $("4pm");
 var the5am = $("5pm");
+
 //function to recognize when user schedules something./
 function Timescheduler() {
     $("#today").moment().format("Apr 3rd 21");
@@ -28,7 +29,6 @@ function Timescheduler() {
 
 }
 
-Timescheduler();
 
 
 var time = moment();
