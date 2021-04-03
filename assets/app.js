@@ -3,7 +3,7 @@ $(document).ready(function () {
 var today = moment().format("Apr 3rd 21");  
 console.log(today)
 $(".o-clock").append(today);
-
+//created var function to update the current date as well as update the time so it can be tracked wnen things are scheduled.//
 var the9am = $("9am");
 var the10am = $("10am");
 var the11am = $("11am");
@@ -13,7 +13,7 @@ var the2am = $("2pm");
 var the3am = $("3pm");
 var the4am = $("4pm");
 var the5am = $("5pm");
-
+//function to recognize when user schedules something./
 function Timescheduler() {
     $("#today").moment().format("Apr 3rd 21");
 
@@ -27,6 +27,8 @@ function Timescheduler() {
     });
 
 }
+
+Timescheduler();
 
 
 var time = moment();
